@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #e5e7eb;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0;
+  color: #f9faf8;
+}
+
+h2 {
+  color: #1f2937;
+}
+
+#signup {
+  background-color: #3882f6;
+  padding: 5px 20px 5px 20px;
+  border-radius: 7px;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.header,
+.main {
+  background-color: #1f2937;
+}
+
+.container {
+  padding: 0 15vh 0 15vh;
+}
+
+.header {
+  display: flex;
+  gap: 32px;
+  padding: 10px 45px 10px 45px;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  padding: 45px;
+}
+
+.main-image {
+  flex: 1;
+  max-width: 350px;
+  max-height: 350px;
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-items {
+  display: flex;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-img {
+  float: left;
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  align-self: center;
+  margin-bottom: 10px;
+  border: 5px solid #3882f6;
+  border-radius: 5px;
+}
+
+.quote {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 50px;
+  margin: 60px 0 60px 0;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 25px;
+}
+
+#by {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+#bottom-title {
+  font-weight: 700;
+}
+
+.bottom-btn {
+  padding: 1px 16px 1px 16px;
+  margin: 0 50px 0 50px;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #1f2937;
+  margin: 0;
+}
