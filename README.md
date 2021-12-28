@@ -1,1 +1,1 @@
-* practicing with simple a landing page.
+* A simple landing page
